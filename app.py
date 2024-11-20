@@ -39,7 +39,7 @@ if menu == "Home":
         st.markdown("<div class='centered-container'><h1>Feastly</h1></div>", unsafe_allow_html=True)
         st.divider()
         st.markdown("<div class='centered-container'><h2>El futuro de la gastronomía</h2></div>", unsafe_allow_html=True)
-        st.image("Logo Feastly 2.png", width=680)
+        st.image("Logo Feastly.png", width=680)
         
     # Introducción
     with st.container():
