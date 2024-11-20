@@ -13,10 +13,10 @@ st.markdown(
     <style>
     /* Cambiar color de fondo de la barra lateral y la página principal */
     [data-testid="stSidebar"] {
-        background-color: #ffd965;  /* Rojo */
+        background-color: #9D1F13;  /* Rojo */
     }
     .stApp {
-        background-color: #9D1F13;  /* Rojo más intenso */
+        background-color: #ff3816;  /* Rojo más intenso */
     }
     /* Centrar el contenido */
     .centered-container {
