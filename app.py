@@ -23,12 +23,23 @@ st.markdown(
         text-align: center;
     }
     /* Estilo para eliminar los puntos de selección en el sidebar */
-    .css-1d391kg {
+    .stSidebar .st-radio input[type="radio"] {
         display: none;
     }
-    .css-1lcbz2m {
+
+    .stSidebar .st-radio label {
         font-weight: bold;
         color: white;
+        font-size: 18px;
+    }
+
+    .stSidebar .st-radio label:hover {
+        background-color: transparent;
+    }
+
+    /* Estilo para que la barra lateral se vea más limpia */
+    .stSidebar .stRadio {
+        padding-left: 0px;
     }
     </style>
     """,
