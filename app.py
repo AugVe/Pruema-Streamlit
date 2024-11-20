@@ -83,10 +83,12 @@ if menu == "Home":
         st.divider()
         st.markdown("<div class='centered-container'><h1>Objetivo Principal</h1></div>", unsafe_allow_html=True)
         st.write("""
+        <p class="increased-font">
         Desarrollar una plataforma web que realice recomendaciones de restaurantes mediante machine learning, utilizando las preferencias del 
         usuario en cuanto a tipo de cocina, ubicación y ambiente. El tiempo de respuesta para generar cada recomendación será de 
         menos de 30 segundos, utilizando herramientas en la nube y asegurando un tiempo de implementación no mayor a 6 semanas.
-        """)
+        </p>
+        """, unsafe_allow_html=True)
 
 
 elif menu == "Recomendaciones":
