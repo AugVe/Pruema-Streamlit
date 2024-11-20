@@ -70,17 +70,18 @@ if menu == "Home":
         st.divider()
         st.markdown("<div class='centered-container'><h1>¿Qué nos diferencia de las demás plataformas?</h1></div>", unsafe_allow_html=True)
         st.markdown("""
-        <div class="increased-font">
-            **Selección Personalizada de Restaurantes:** En Feastly, nos aseguramos de sugerir restaurantes que realmente coincidan con los gustos y 
-                    hábitos de cada usuario. No se trata solo de mostrar opciones, sino de garantizar que cada recomendación cumpla con sus expectativas.</li>
-            **Reseñas Detalladas y Verificadas:** Valoramos la transparencia y la confianza. Cada reseña en Feastly es verificada y detallada, 
-                    proporcionada por comensales reales que han experimentado cada lugar. Esto nos permite ofrecer una visión precisa de lo que cada restaurante 
-                    tiene para ofrecer.</li>
-            **Información de Ubicación y Ambiente:** Además de sugerir restaurantes, proporcionamos datos sobre la ubicación y el ambiente de cada 
-                    establecimiento, ayudando a los usuarios a tomar decisiones informadas sobre dónde disfrutar su próxima comida.</li>
-            </ul>
-        </div>
-        """, unsafe_allow_html=True)
+    <div class="increased-font">
+        <ul>
+            <li> Selección Personalizada de Restaurantes:** En Feastly, nos aseguramos de sugerir restaurantes que realmente coincidan con los gustos y 
+                hábitos de cada usuario. No se trata solo de mostrar opciones, sino de garantizar que cada recomendación cumpla con sus expectativas.</li>
+            <li> Reseñas Detalladas y Verificadas:** Valoramos la transparencia y la confianza. Cada reseña en Feastly es verificada y detallada, 
+                proporcionada por comensales reales que han experimentado cada lugar. Esto nos permite ofrecer una visión precisa de lo que cada restaurante 
+                tiene para ofrecer.</li>
+            <li> Información de Ubicación y Ambiente:** Además de sugerir restaurantes, proporcionamos datos sobre la ubicación y el ambiente de cada 
+                establecimiento, ayudando a los usuarios a tomar decisiones informadas sobre dónde disfrutar su próxima comida.</li>
+        </ul>
+    </div>
+    """, unsafe_allow_html=True)
     # Objetivo Principal
     with st.container():
         st.divider()
