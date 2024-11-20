@@ -22,10 +22,19 @@ st.markdown(
     .centered-container {
         text-align: center;
     }
+    /* Estilo para eliminar los puntos de selección en el sidebar */
+    .css-1d391kg {
+        display: none;
+    }
+    .css-1lcbz2m {
+        font-weight: bold;
+        color: white;
+    }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 # Crear barra lateral con un menú
 menu = st.sidebar.radio(
