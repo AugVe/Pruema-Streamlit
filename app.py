@@ -16,7 +16,7 @@ st.markdown(
         background-color: #ffd965;  /* Rojo */
     }
     .stApp {
-        background-color: #ff3816;  /* Rojo más intenso */
+        background-color: #9D1F13;  /* Rojo más intenso */
     }
     /* Centrar el contenido */
     .centered-container {
