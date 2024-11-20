@@ -92,8 +92,6 @@ if menu == "Home":
 
 elif menu == "Recomendaciones":
     with st.container():
-    st.markdown("<h2 id='recomendaciones-section'>Recomendaciones</h2>", unsafe_allow_html=True)
-    with st.container():
         st.markdown("<div class='centered-container'><h1>¡Descubre tu próximo favorito!</h1></div>", unsafe_allow_html=True)
         st.write("""
         ¡Basándonos en tus preferencias, hemos seleccionado 5 lugares que creemos que te encantarán!
