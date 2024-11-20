@@ -70,6 +70,7 @@ if menu == "Home":
         st.divider()
         st.markdown("<div class='centered-container'><h1>¿Qué nos diferencia de las demás plataformas?</h1></div>", unsafe_allow_html=True)
         st.write("""
+        <p class="increased-font">
     * **Selección Personalizada de Restaurantes:** En Feastly, nos aseguramos de sugerir restaurantes que realmente coincidan con los gustos y 
     hábitos de cada usuario. No se trata solo de mostrar opciones, sino de garantizar que cada recomendación cumpla con sus expectativas.
     * **Reseñas Detalladas y Verificadas:** Valoramos la transparencia y la confianza. Cada reseña en Feastly es verificada y detallada, 
@@ -77,7 +78,8 @@ if menu == "Home":
     tiene para ofrecer.
     * **Información de Ubicación y Ambiente:** Además de sugerir restaurantes, proporcionamos datos sobre la ubicación y el ambiente de cada 
     establecimiento, ayudando a los usuarios a tomar decisiones informadas sobre dónde disfrutar su próxima comida.
-    """)
+    </p>
+    """, unsafe_allow_html=True)
     # Objetivo Principal
     with st.container():
         st.divider()
