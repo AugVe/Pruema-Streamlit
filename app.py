@@ -28,10 +28,7 @@ st.markdown(
 )
 
 # Crear barra lateral con un menú
-menu = st.sidebar.radio(
-    "Menú",
-    ["Home", "Recomendaciones", "Analisis de Datos"]
-)
+menu = st.sidebar.radio("Menu", ["Home", "Recomendaciones", "Análisis de Datos"])
 
 # Mostrar contenido según la selección del menú
 if menu == "Home":
