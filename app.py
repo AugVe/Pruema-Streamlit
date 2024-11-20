@@ -38,10 +38,7 @@ if menu == "Home":
     with st.container():
         st.markdown("<div class='centered-container'><h1>Feastly</h1></div>", unsafe_allow_html=True)
         st.divider()
-        st.markdown("""
-        <div class='centered-container'><h2>El futuro de la gastronomía</h2></div>
-        <a href="#Recomendaciones">Descubre tus recomendaciones</a>
-        """, unsafe_allow_html=True)
+        st.markdown("<div class='centered-container'><h2>El futuro de la gastronomía</h2></div>", unsafe_allow_html=True)
         st.image("Logo Feastly.png", width=680)
         
     # Introducción
