@@ -27,6 +27,18 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# Agregar una clase CSS para aumentar el tamaño de fuente
+st.markdown(
+    """
+    <style>
+    .increased-font {
+        font-size: 1.2em;  /* Ajusta el tamaño de fuente según tus necesidades */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Crear barra lateral con un menú
 menu = st.sidebar.radio("Menu", ["Home", "Recomendaciones", "Análisis de Datos"])
 
@@ -41,6 +53,7 @@ if menu == "Home":
     # Introducción
     with st.container():
         st.write("""
+        <p class="increased-font">
         Feastly es un sistema de recomendaciones de restaurantes diseñado para ofrecer una experiencia gastronómica personalizada y de 
         alta calidad. A diferencia de otras plataformas de recomendaciones, Feastly se especializa en sugerir lugares que se ajusten a 
         las preferencias y gustos de cada usuario, basándose en un análisis profundo de datos y las experiencias previas de otros comensales. 
@@ -48,8 +61,9 @@ if menu == "Home":
         usuario realmente desea.
         En un mercado lleno de opciones para descubrir restaurantes, Feastly se posiciona como un asistente culinario personalizado. No nos 
         limitamos a ofrecer una simple lista de opciones; nuestro objetivo es crear experiencias únicas que se alineen con las expectativas y 
-        preferencias de cada usuario.
-        """)
+        preferencias de cada usuario. 
+        </p>
+        """, unsafe_allow_html=True)
 
     # ¿Qué nos diferencia de las demás plataformas?
     with st.container():
