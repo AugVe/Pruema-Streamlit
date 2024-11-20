@@ -96,7 +96,7 @@ elif menu == "Recomendaciones":
     with st.container():
         st.markdown("<div class='centered-container'><h1>¡Descubre tu próximo favorito!</h1></div>", unsafe_allow_html=True)
         # Agregar el cuadro de texto para la preferencia del usuario
-        preferencia = st.text_input("¿Cuál es tu tipo de cocina favorito?")
+        preferencia = st.text_input()
         st.write("""
         ¡Basándonos en tus preferencias, hemos seleccionado 5 lugares que creemos que te encantarán!
         """)
