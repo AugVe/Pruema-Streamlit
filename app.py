@@ -46,13 +46,6 @@ if menu == "Home":
         las preferencias y gustos de cada usuario, basándose en un análisis profundo de datos y las experiencias previas de otros comensales. 
         Además, brindamos información confiable sobre ubicaciones y ambientes para garantizar que cada recomendación se adapte a lo que el 
         usuario realmente desea.
-        """)
-
-    # Entendiendo la situación propuesta
-    with st.container():
-        st.divider()
-        st.markdown("<div class='centered-container'><h1>Entendiendo la situación propuesta</h1></div>", unsafe_allow_html=True)
-        st.write("""
         En un mercado lleno de opciones para descubrir restaurantes, Feastly se posiciona como un asistente culinario personalizado. No nos 
         limitamos a ofrecer una simple lista de opciones; nuestro objetivo es crear experiencias únicas que se alineen con las expectativas y 
         preferencias de cada usuario.
