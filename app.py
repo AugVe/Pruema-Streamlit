@@ -40,6 +40,10 @@ if menu == "Home":
         st.divider()
         st.markdown("<div class='centered-container'><h2>El futuro de la gastronomía</h2></div>", unsafe_allow_html=True)
         st.image("Logo Feastly.png", width=680)
+        st.markdown("""
+        <div class='centered-container'><h2>El futuro de la gastronomía</h2></div>
+        <a href="#recomendaciones-section">Descubre tus recomendaciones</a>
+        """, unsafe_allow_html=True)
         
     # Introducción
     with st.container():
@@ -87,6 +91,8 @@ if menu == "Home":
 
 
 elif menu == "Recomendaciones":
+    with st.container():
+    st.markdown("<h2 id='recomendaciones-section'>Recomendaciones</h2>", unsafe_allow_html=True)
     with st.container():
         st.markdown("<div class='centered-container'><h1>¡Descubre tu próximo favorito!</h1></div>", unsafe_allow_html=True)
         st.write("""
