@@ -102,7 +102,7 @@ elif menu == "Recomendaciones":
         ¡Basándonos en tus preferencias, hemos seleccionado 5 lugares que creemos que te encantarán!
         """)
         # Agregar la imagen
-        st.image("Tarjetas Recomendaciones.png", width=300)
+        st.image("Tarjetas Recomendaciones.png", width=1000)
 
 elif menu == "Analytics":
     st.header("Analisis de Datos")
