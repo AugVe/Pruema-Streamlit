@@ -97,12 +97,12 @@ elif menu == "Recomendaciones":
         st.markdown("<div class='centered-container'><h1>¡Descubre tu próximo favorito!</h1></div>", unsafe_allow_html=True)
         st.write("""
         <p class="increased-font">
-        Dinos qué es lo que estás buscando para tu próxima experiencia culinaria.
+        Dinos qué es lo que estás buscando para tu próxima experiencia culinaria. (Solo inglés)
         </p>
         """, unsafe_allow_html=True)
         
         # Agregar el cuadro de texto para la preferencia del usuario
-        preferencia = st.text_input("")
+        preferencia = st.text_input("I feel like Sushi or Pizza")
         st.write("""
         <p class="increased-font">
         ¡Basándonos en tus preferencias, hemos seleccionado 5 lugares que creemos que te encantarán!
