@@ -104,8 +104,11 @@ elif menu == "Recomendaciones":
         # Agregar el cuadro de texto para la preferencia del usuario
         preferencia = st.text_input("")
         st.write("""
+        <p class="increased-font">
         ¡Basándonos en tus preferencias, hemos seleccionado 5 lugares que creemos que te encantarán!
-        """)
+        </p>
+        """, unsafe_allow_html=True)
+
         # Agregar la imagen
         st.image("Tarjetas Recomendaciones.png", width=1200)
 
