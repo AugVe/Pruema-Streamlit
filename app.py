@@ -117,10 +117,10 @@ if menu == "Home":
         # Crear un contenedor para las imágenes
         st.markdown("""
         <div class="image-container">
-            <img src="Antonio.png" alt="Imagen 1">
-            <img src="Augusto.png" alt="Imagen 2">
-            <img src="Jonathan.png" alt="Imagen 3">
-            <img src="Lautaro.png" alt="Imagen 4">
+            <img src="Antonio.png">
+            <img src="Augusto.png">
+            <img src="Jonathan.png">
+            <img src="Lautaro.png">
         </div>   
     
         """, unsafe_allow_html=True)
