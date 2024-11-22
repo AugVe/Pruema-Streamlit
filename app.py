@@ -27,6 +27,19 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+st.markdown(
+    """
+    <style>
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Agregar una clase CSS para aumentar el tamaño de fuente
 st.markdown(
     """
