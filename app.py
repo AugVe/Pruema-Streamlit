@@ -27,19 +27,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.markdown(
-    """
-    <style>
-    .container {
-        max-width: 1800px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 # Agregar una clase CSS para aumentar el tamaño de fuente
 st.markdown(
     """
@@ -108,7 +95,12 @@ if menu == "Home":
 elif menu == "Recomendaciones":
     with st.container():
         st.markdown("<div class='centered-container'><h1>¡Descubre tu próximo favorito!</h1></div>", unsafe_allow_html=True)
-        st.write("""Dinos qué es lo que estás buscando para tu próxima experiencia culinaria.""")
+        st.write("""
+        <p class="increased-font">
+        Dinos qué es lo que estás buscando para tu próxima experiencia culinaria.
+        </p>
+        """, unsafe_allow_html=True)
+        
         # Agregar el cuadro de texto para la preferencia del usuario
         preferencia = st.text_input("")
         st.write("""
