@@ -35,7 +35,7 @@ st.markdown("""
     justify-content: space-around;
 }
 
-.image-container img {
+.image-container png {
     width: 200px; /* Ajusta el ancho según tus necesidades */
     height: auto;
 }
