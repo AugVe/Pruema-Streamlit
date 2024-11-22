@@ -102,7 +102,7 @@ elif menu == "Recomendaciones":
         """, unsafe_allow_html=True)
         
         # Agregar el cuadro de texto para la preferencia del usuario
-        preferencia = st.text_input("I feel like Sushi or Pizza")
+        preferencia = st.text_input(" "I feel like Sushi or Pizza" ")
         st.write("""
         <p class="increased-font">
         ¡Basándonos en tus preferencias, hemos seleccionado 5 lugares que creemos que te encantarán!
