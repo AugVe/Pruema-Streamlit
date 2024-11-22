@@ -27,6 +27,21 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# Estilo CSS para el layout de las imágenes
+st.markdown("""
+<style>
+.image-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-container img {
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    height: auto;
+}
+</style>
+""", unsafe_allow_html=True)
+
 # Agregar una clase CSS para aumentar el tamaño de fuente
 st.markdown(
     """
@@ -89,6 +104,25 @@ if menu == "Home":
         usuario en cuanto a tipo de cocina, ubicación y ambiente. El tiempo de respuesta para generar cada recomendación será de 
         menos de 30 segundos, utilizando herramientas en la nube y asegurando un tiempo de implementación no mayor a 6 semanas.
         </p>
+        """, unsafe_allow_html=True)
+        
+        with st.container():
+        st.divider()
+        st.markdown("<div class='centered-container'><h1>Nuestro Equipo</h1></div>", unsafe_allow_html=True)
+        st.write("""
+        <p class="increased-font">
+        Conoce quienes lo hicieron posible.
+        </p>
+        """, unsafe_allow_html=True)
+        # Crear un contenedor para las imágenes
+        st.markdown("""
+        <div class="image-container">
+            <img src="imagen1.jpg" alt="Imagen 1">
+            <img src="imagen2.jpg" alt="Imagen 2">
+            <img src="imagen3.jpg" alt="Imagen 3">
+            <img src="imagen4.jpg" alt="Imagen 4">
+        </div>   
+    
         """, unsafe_allow_html=True)
 
 
