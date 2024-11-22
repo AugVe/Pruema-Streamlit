@@ -106,7 +106,7 @@ if menu == "Home":
         </p>
         """, unsafe_allow_html=True)
         
-        with st.container():
+    with st.container():
         st.divider()
         st.markdown("<div class='centered-container'><h1>Nuestro Equipo</h1></div>", unsafe_allow_html=True)
         st.write("""
