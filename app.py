@@ -114,10 +114,5 @@ elif menu == "Recomendaciones":
 
 elif menu == "Análisis de Datos":
     with st.container():
-        st.write("""
-        <p class="increased-font">
-        Puedes ver mas en profundidad nuestro Analisis Exploratorio de Datos en nuestro github: 
-        </p>
-        """, unsafe_allow_html=True)
         st.image("Eda1.ong.png", width=900)
         st.image("Eda2.png", width=900)
