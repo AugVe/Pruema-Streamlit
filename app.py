@@ -114,4 +114,8 @@ elif menu == "Recomendaciones":
 
 elif menu == "Analytics":
     with st.container():
-        st.image("Logo Feastly.png", width=680)
+        st.write("""
+        <p class="increased-font">
+        ¡Basándonos en tus preferencias, hemos seleccionado 5 lugares que creemos que te encantarán!
+        </p>
+        """, unsafe_allow_html=True)
