@@ -114,5 +114,6 @@ elif menu == "Recomendaciones":
 
 elif menu == "Análisis de Datos":
     with st.container():
+        st.markdown("<div class='centered-container'><h1>Análisis Exploratorio de Datos</h1></div>", unsafe_allow_html=True)
         st.image("Eda1.ong.png", width=900)
         st.image("Eda2.png", width=900)
