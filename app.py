@@ -105,7 +105,7 @@ elif menu == "Recomendaciones":
         preferencia = st.text_input("Ejemplo: I feel like Sushi or Pizza")
         st.write("""
         <p class="increased-font">
-        ¡Basándonos en tus preferencias, hemos seleccionado 5 lugares que creemos que te encantarán!
+        ¡Basándonos en tus preferencias, hemos seleccionado los siguientes lugares que creemos te encantarán!
         </p>
         """, unsafe_allow_html=True)
 
