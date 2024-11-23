@@ -114,5 +114,5 @@ elif menu == "Recomendaciones":
 
 elif menu == "Análisis de Datos":
     with st.container():
-        st.image("Eda1.ong.png", width=1200)
-        st.image("Eda2.png", width=1200)
+        st.image("Eda1.ong.png", width=900)
+        st.image("Eda2.png", width=900)
