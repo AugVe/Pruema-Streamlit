@@ -115,5 +115,12 @@ elif menu == "Recomendaciones":
 elif menu == "Análisis de Datos":
     with st.container():
         st.markdown("<div class='centered-container'><h1>Dashboard</h1></div>", unsafe_allow_html=True)
+        st.markdown("<div class='centered-container'><h1>EDA</h1></div>", unsafe_allow_html=True)
+        st.write("""
+        <p class="increased-font">
+        Para ver mas en profundidad el Analisis Exploratorio de Datos, puedes visitar nuestro Github:
+        </p>
+        """, unsafe_allow_html=True)
+        st.link_button("Ir a GitHub", "https://github.com/jgutierrezladino/Feastly")
         st.image("Eda1.ong.png", width=900)
         st.image("Eda2.png", width=900)
