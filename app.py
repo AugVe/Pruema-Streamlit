@@ -112,7 +112,7 @@ elif menu == "Recomendaciones":
         # Agregar la imagen
         st.image("Tarjetas Recomendaciones.png", width=1200)
 
-elif menu == "Analytics":
+elif menu == "Análisis de Datos":
     with st.container():
         st.write("""
         <p class="increased-font">
