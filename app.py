@@ -114,11 +114,11 @@ elif menu == "Recomendaciones":
 
 elif menu == "Análisis de Datos":
     with st.container():
-        st.link_button("Ir a GitHub", "https://github.com/streamlit")
         st.write("""
         <p class="increased-font">
-        Puedes ver mas en profundidad nuestro Analisis Exploratorio de Datos en nuestro github: https://github.com/jgutierrezladino/Feastly 
+        Puedes ver mas en profundidad nuestro Analisis Exploratorio de Datos en nuestro github: 
         </p>
         """, unsafe_allow_html=True)
+        st.link_button("Ir a GitHub", "https://github.com/jgutierrezladino/Feastly")
         st.image("Eda1.ong.png", width=900)
         st.image("Eda2.png", width=900)
