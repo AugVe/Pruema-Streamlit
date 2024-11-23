@@ -116,6 +116,7 @@ elif menu == "Análisis de Datos":
     with st.container():
         st.markdown("<div class='centered-container'><h1>Dashboard</h1></div>", unsafe_allow_html=True)
         st.image("Dashboard.jpeg", width=900)
+        st.divider()
         st.markdown("<div class='centered-container'><h1>EDA</h1></div>", unsafe_allow_html=True)
         st.write("""
         <p class="increased-font">
