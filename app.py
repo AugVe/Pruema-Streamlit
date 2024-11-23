@@ -110,7 +110,7 @@ elif menu == "Recomendaciones":
         """, unsafe_allow_html=True)
 
         # Agregar la imagen
-        st.image("Recomendaciones Antonio.jpeg", width=1200)
+        st.image("Recomendaciones Antonio.jpeg", width=2000)
 
 elif menu == "Análisis de Datos":
     with st.container():
