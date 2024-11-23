@@ -114,8 +114,4 @@ elif menu == "Recomendaciones":
 
 elif menu == "Análisis de Datos":
     with st.container():
-        st.write("""
-        <p class="increased-font">
-        ¡Basándonos en tus preferencias, hemos seleccionado 5 lugares que creemos que te encantarán!
-        </p>
-        """, unsafe_allow_html=True)
+        st.image("Eda1.ong.png", width=1200)
