@@ -114,6 +114,7 @@ elif menu == "Recomendaciones":
 
 elif menu == "Análisis de Datos":
     with st.container():
+        st.markdown("<div class='centered-container'><h1>EDA</h1></div>", unsafe_allow_html=True)
         st.write("""
         <p class="increased-font">
         Para ver mas en profundidad el Analisis Exploratorio de Datos, puedes visitar nuestro Github:
