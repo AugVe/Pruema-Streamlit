@@ -113,5 +113,5 @@ elif menu == "Recomendaciones":
         st.image("Tarjetas Recomendaciones.png", width=1200)
 
 elif menu == "Analytics":
-    st.header("Analisis de Datos")
-    st.write("Agrega gráficos, métricas o visualizaciones analíticas aquí.")
+    with st.container():
+        st.image("Logo Feastly.png", width=680)
